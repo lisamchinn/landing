@@ -1,0 +1,124 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/card.css");
+@import url("components/button.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.text-align-center {
+  text-align: center
+}
+
+.banner {
+  width: 100%
+  margin: 0;
+  background-image: url("../images/_MG_1168.jpg");
+  background-size: cover;
+  background-position: 50% 30%; /* Center the image */
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  font-family: Open-sans, sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0;
+  padding-top: 165px;
+  padding-bottom: 15px
+}
+
+.container > p {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  font-family: Open-sans, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#call-to-action a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-left: 430px;
+  margin-top: 21px;
+}
+
+.footer {
+  background-color: #5FCF7F;
+  width: 100%
+  margin: 0;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.footer p {
+  color: #DDDDDD;
+  padding: 0;
+  text-align: center;
+}
+
+.footer a {
+  font-size: 36px;
+  margin: 10px;
+  color: #DDDDDD;
+}
+
+.footer a:hover {
+  color: #339AF0;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.footer ul {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.footer li {
+  padding-left: 0;
+  display: inline;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+
+
